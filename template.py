@@ -56,6 +56,7 @@ list_of_files = [
     "setup.py",
     "templates/index.html",
     "test.py"
+    "dvc.yaml"
 ]
 
 for filepath in list_of_files:

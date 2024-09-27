@@ -31,6 +31,8 @@ list_of_files = [
     f"src/utils/__init__.py", # utils is used for logging and helper
     f"src/utils/common.py",
     
+    f"src/logger/__init__.py",
+    
     f"src/config/config.yaml", # Configuration settings for the project
     # "config/configuration.py", 
     

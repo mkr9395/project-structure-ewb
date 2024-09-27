@@ -25,6 +25,8 @@ list_of_files = [
     "src/utils/__init__.py",
     "src/utils/common.py",
     
+    "src/logger/__init__.py",
+    
     "src/config/config.yaml",
     
     "notebooks/__init__.py",
@@ -49,7 +51,8 @@ list_of_files = [
     "setup.py",
     "templates/index.html",
     "test.py",
-    "dvc.yaml"
+    "dvc.yaml",
+    "demo.py"
 ]
 
 # Function to create directories and files

@@ -76,3 +76,15 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} already exists")
+        
+    project_root = Path(__file__).resolve().parent    
+    data_folders = [
+       project_root / "data" / "raw",
+        project_root / "data" / "interim",
+        project_root / "data" / "processed"
+    ]
+    
+    # Create the directories if they don't exist
+    for folder in data_folders:
+        folder.mkdir(parents=True, exist_ok=True)  # Create directories, including any parent dirs
+        print(f"Created or exists: {folder}")

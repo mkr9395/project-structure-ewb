@@ -6,6 +6,8 @@ pyYAML
 types-PyYAML
 gdown
 pymongo
+patsy
+statsmodels
 
 numpy
 matplotlib

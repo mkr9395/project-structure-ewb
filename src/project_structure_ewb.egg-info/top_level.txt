@@ -2,6 +2,7 @@ config
 data
 entity
 evaluation
+exceptions
 features
 logger
 models

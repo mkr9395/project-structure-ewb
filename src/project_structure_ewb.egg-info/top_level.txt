@@ -3,5 +3,6 @@ data
 entity
 evaluation
 features
+logger
 models
 utils

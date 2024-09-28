@@ -29,6 +29,8 @@ list_of_files = [
     
     "src/config/config.yaml",
     
+    "src/exceptions/__init__.py",
+    
     "notebooks/__init__.py",
     
     "models/",

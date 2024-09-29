@@ -31,8 +31,7 @@ fastapi
 uvicorn
 jinja2
 python-multipart
+imbalanced-learn
 
 dvc
-
-
 -e .

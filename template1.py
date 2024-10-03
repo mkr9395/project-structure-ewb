@@ -55,14 +55,16 @@ list_of_files = [
     "test.py",
     "dvc.yaml",
     "demo.py",
-    '.env'
+    '.env',
+    '.gitignore'
     ]
+
 # Function to create directories and files
 def create_project_structure(file_list):
     for filepath in file_list:
         filepath = Path(filepath)  # Convert to pathlib Path object
         
-        if filepath.suffix or filepath.name == '.env':  # If it has a suffix, it's a file
+        if filepath.suffix or filepath.name in ['.env', '.gitignore']:# If it has a suffix, it's a file
             filedir = filepath.parent  # Get the directory part of the path
             if not filedir.exists():
                 filedir.mkdir(parents=True, exist_ok=True)

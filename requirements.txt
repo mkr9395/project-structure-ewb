@@ -32,6 +32,7 @@ uvicorn
 jinja2
 python-multipart
 imbalanced-learn
+python-dotenv
 
 dvc
 -e .
